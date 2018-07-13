@@ -1,0 +1,15 @@
+{
+  "name": "tutobot",
+  "version": "1.0.0",
+  "description": "Un bot para YouTube",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "AndyDevy#9999",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
