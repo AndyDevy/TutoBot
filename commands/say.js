@@ -1,11 +1,12 @@
-let config = require('./../config.json');
-
 exports.run = (message, client, args, Discord) => {
 	// Estableciendo argumentos
-	var content = "data-123".replace('data-','');
-	console.log(content);
+	const command = 'tuto!say';
+	let content = message.content.slice().trim();
 
-	// Tomar el mensaje completo
-	// Remover el prefijo
-	// Quitar espacios de exceso
-}
+	message.channel.send(content);
+};
+
+/*
+	const command = 'z-sugerir';
+  	const content = message.content.slice(command.length).trim();
+ */
