@@ -1,7 +1,7 @@
 exports.run = (message, client, args, Discord) => {
 	// Estableciendo argumentos
 	const command = 'tuto!say';
-	let content = message.content.slice().trim();
+	let content = message.content.slice(command.length).trim();
 
 	message.channel.send(content);
 };
