@@ -1,5 +1,5 @@
 exports.run = (client, message, args, Discord) => {
-	const embed = {
+	const embed {
 	  "title": "Esto es un embed",
 	  "description": "Hola",
 	  "color": 6992362,
